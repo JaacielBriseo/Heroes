@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superheroes App</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <form id="enviarHeroe">
+        <div>
+          <label class="form-label">Escribe el nombre de un personaje de comics o peliculas de superheroes</label><br>
+          <input type="text" id="recibirHeroe" size="20" style="background-color: white;">
+        </div>
+        <div>
+          <button style="margin:5px ;" id="btnSubmit" class="btn btn-light" type="submit">Mostrar personaje</button>
+        </div>
+      </form>
+      
+<div id="imprimirHeroe">
+</div>
+
+<div id="imagenHeroe" style="padding: 20px;">
+</div>
+
+<div id = 'biografiaHeroe'>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
